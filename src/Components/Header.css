@@ -1,0 +1,173 @@
+/* Header.css */
+.header {
+  background-image: linear-gradient(red, rgb(81, 250, 34));
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aqua;
+    /* border-radius: 10px; */
+    padding: 20px;
+    
+  }
+  
+  .header-content {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  *{
+    padding: 0;margin: 0;
+  }
+  
+.burger-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+ul{
+  list-style-type: none;
+}
+
+  /* BurgerCard.css */
+
+.burger-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 10px 20px;
+}
+
+.burger-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.burger-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.burger-card p {
+  font-size: 16px;
+  color: #555;
+}
+.Burger-header{
+  text-align: center;
+  font-size: 30px;
+}
+.burger-card:hover{
+  box-shadow: 1px 1px;
+} 
+.cart-items {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 10px 20px;
+}
+.cart-items:hover{
+  box-shadow: 1px 1px;
+  
+}
+.cart-items img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.Total{
+  font-size: large;
+  text-align: center;
+}
+.bill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #ccc; /* Increase the border width */
+  border-image-source: url('https://media.istockphoto.com/id/162721677/vector/border-frame-with-floral-pattern.jpg?s=612x612&w=0&k=20&c=bq5RFE0qMzfykfaHHeqPYwTG_fxSCsKXdb5P21K3QMU=');
+  border-image-slice: 30;
+  padding: 20px;
+  text-align: center;
+}
+
+.bill-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bill-container hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.bill-container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bill-container ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bill-container li {
+  margin-bottom: 20px;
+}
+
+.bill-container h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bill-container span {
+  font-weight: bold;
+}
+
+.floral-pattern {
+  background-image: url('https://media.istockphoto.com/id/162721677/vector/border-frame-with-floral-pattern.jpg?s=612x612&w=0&k=20&c=bq5RFE0qMzfykfaHHeqPYwTG_fxSCsKXdb5P21K3QMU=');
+  background-repeat: repeat;
+  background-size: contain;
+}
+.customize-link {
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: rgb(128, 22, 248);
+  color: wheat;
+}
+.Customize{
+  text-align: center;
+  background-image: linear-gradient(rgb(95, 206, 10), rgb(235, 242, 27));
+  color:rgb(123, 7, 152);
+
+}
+.ingredients{
+  color: red;
+  
+}
+button:hover{
+  color: red;
+}

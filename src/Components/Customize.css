@@ -1,0 +1,120 @@
+
+  .header {
+    background-image: linear-gradient(rgb(95, 206, 10), rgb(235, 242, 27));
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:rgb(123, 7, 152);
+      /* border-radius: 10px; */
+      padding: 20px;
+      
+    }
+    
+    .header-content {
+      text-align: center;
+      flex-grow: 1;
+    }
+    
+    form {
+        /* display: flex; */
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      label {
+        margin-bottom: 10px;
+      }
+      
+      input {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      
+      button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button + button {
+        margin-left: 10px;
+      }
+      
+      .link {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: blue;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      .count {
+        margin: 0 5px;
+        font-weight: bold;
+      }
+      
+      .price {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .Home{
+        display: inline-block;
+  border: 2px solid #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: yellow;
+      }
+      /* .ingredient-image{
+        width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+      } */
+      .burger {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      
+      
+      .ingredient-image {
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        width: 200px;
+  height: 50px;
+      }
+      .ingredient-image-bun{
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        width: 200px;
+  height: 80px;
+      }
+      .burger-make{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .Thanks{
+        text-align: center;
+        color: brown;
+      }
+      .Side{
+        height: 200px;
+      }

@@ -1,0 +1,56 @@
+burger top bun=https://static.vecteezy.com/system/resources/previews/014/183/777/original/bun-bakery-icon-cartoon-meat-burger-vector.jpg
+burger bottom bun=https://static.vecteezy.com/system/resources/previews/014/073/574/non_2x/burger-bun-icon-cartoon-cheese-sandwich-vector.jpg
+ <button className="cart-button" onClick={handleToggleCart}>
+        {isCartVisible ? 'Close Cart' : 'Open Cart'}
+      </button>
+      {isCartVisible && (
+        <div className="cart-card">
+          <h4>Cart Summary</h4>
+          {cartItems.length === 0 ? (
+        <p>Your cart is empty.</p>
+        
+      ) : (
+        <div>
+
+        <ol>
+          {cartItems.map((burger) => (
+            
+            <li key={burger.id}>
+              {/* {burger.id}
+              <br></br> */}
+              <h3>{burger.name}</h3>
+              
+              <br></br>
+              {/* <img src={burger.url}></img> */}
+              <br></br>
+              Burger ID: {burger.id} 
+              <br></br>
+              Quantity:
+              <button onClick={() => handleIncreaseQuantity(burger.id)}>+</button>
+               {burger.quantity}
+                <button onClick={() => handleDecreaseQuantity(burger.id)}>-</button> 
+                <br></br>
+              Cheese Slice:{burger.ingredients.Cheese}
+              <br></br>
+              Meat Slice:{burger.ingredients.Meat}
+              <br></br>
+              Tomato Slice:{burger.ingredients.Tomato}
+              <br></br>
+              Lettuce Slice:{burger.ingredients.Lettuce}
+              <br></br>
+              Price:{burger.price}
+
+              <br></br>
+              
+              <button onClick={() => handleRemoveFromCart(burger.id)}>Remove</button>
+
+            </li>
+
+              ))}
+          <h3>Total: {total}</h3>
+        </ol>
+        </div>
+      )}
+        </div>
+      )}
+      https://media.istockphoto.com/id/162721677/vector/border-frame-with-floral-pattern.jpg?s=612x612&w=0&k=20&c=bq5RFE0qMzfykfaHHeqPYwTG_fxSCsKXdb5P21K3QMU=
